@@ -54,5 +54,28 @@ Arduino is an open-source platform used for building electronics projects. Ardui
 
 The Arduino platform has become quite popular with people just starting out with electronics, and for good reason. Unlike most previous programmable circuit boards, the Arduino does not need a separate piece of hardware (called a programmer) in order to load new code onto the board -- you can simply use a USB cable. Additionally, the Arduino IDE uses a simplified version of C++, making it easier to learn to program. Finally, Arduino provides a standard form factor that breaks out the functions of the micro-controller into a more accessible package.
 * Arduino UNO R3 x 1
-## Robotic ARM Working Methodology : 
+## Control and Methodology: 
+* This project is based on Introduction to "how does robotic arm works?", This is designed with detachable components which can be setup accorading to the needs which provides the user to calculate and produce required Ouptut
+* Here we have used three arduino boards to control multiple joints and gripper in the robotic arm 
+* Each one connected with 2 or 3 sets of servo motor and provides a good stablity during the movement of links 
+* Here we have defined the working of the robotic arm with code which are lower_joints_links, upper_joints_links and gripper 
+###### Lower_joints_links
+Here its defined for controlling the lower joints as per the measurement first and second lower joints consume more potential difference then upper joints , we have seperated the code and arduino due to excess consumption of power , we have decrease the Normal force or torque due to normal force by fixing the angle where joints can over come from high torque 
+Code is defined with different position value or angle value of three servo motors which can be manipulate or change by the user
+* base servo_motor_j 0 < angle < 180
+* middle servo_motor_t 30 < angle < 120 (bears the maximum torque)
+* upper middle serve_motor_k 0 < angle < 90
+###### Upper_joints_links  
+Here its defined for controlling the upper joints, we have seperated the code and arduino due to excess consumption of power , we have decrease the Normal force or torque due to normal force by fixing the angle where joints can over come from high torque 
+Code is defined with different position value or angle value of three servo motors which can be manipulate or change by the user
+* upper joint servo_motor_j 0 < angle < 180
+* gripper_joint servo_motor_k 0 < angle < 180 
+###### Gripper 
+This script is the simplest one which has two output state defined by two leds and one servo motor to direct the state of gripper of servo motor , Here we have defined the condition of led on and off by dependinf on ther servo motor angle which is corresponding to the gripper open and close state
+Code is defined with different position value or angle value of three servo motors which can be manipulate or change by the user
+* gripper servo_motor 0 < angle < 180
+* RED LED on Gripper is closed 
+* Green LED on Gripper is open 
+*
+
 
