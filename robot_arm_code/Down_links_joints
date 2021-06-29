@@ -1,0 +1,45 @@
+/*
+author_name: Sumit chatterjee
+email_id: csumit249@gmail.com
+This code is defined for lower links and joints as per as the measurment lower joints consume more amount of voltage due to amount of Normal Force is greater then 10 kg/cm 
+*/
+
+#include <Servo.h>
+Servo myservo_j;
+Servo myservo_k;
+Servo myservo_t;
+Servo myservo_g;
+Servo myservo_h;
+int pos_j = 0;
+int pos_k = 0;
+int pos_t = 0;
+int pos_g = 0;
+int pos_h = 0;
+int out = 7;
+void setup() {
+  myservo_j.attach(10);
+  myservo_k.attach(9);
+  myservo_t.attach(11);
+  myservo_g.attach(6);
+  myservo_h.attach(5);
+  pinMode(out,OUTPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+myservo_k.write(60);
+delay(1000);
+myservo_t.write(90);
+delay(1000);
+myservo_j.write(30);
+delay(1000);
+delay(7000);
+myservo_j.write(120);
+delay(1000);
+myservo_t.write(60);
+delay(1000);
+myservo_k.write(80);
+delay(1000);
+delay(7000);
+}
