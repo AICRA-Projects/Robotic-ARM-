@@ -1,0 +1,34 @@
+/*
+author_name: Sumit chatterjee
+email_id: csumit249@gmail.com
+This code is defined for upper links and joints 
+*/
+
+
+#include <Servo.h>
+
+Servo myservo_j;
+Servo myservo_k;
+
+int pos_m = 0; 
+int pos_n = 0;
+
+void setup() {
+  myservo_j.attach(10);
+  myservo_k.attach(9);
+
+}
+
+void loop() {
+  delay(6000);// time delay for lower joints movements 
+    myservo_j.write(pos_m); 
+    delay(1000);
+     myservo_k.write(pos_m+60); 
+    delay(1000);
+    delay(6000);
+        myservo_j.write(pos_n+60); 
+    delay(1000);
+     myservo_k.write(pos_n);
+     delay(1000);
+    
+}
