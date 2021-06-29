@@ -55,3 +55,4 @@ Arduino is an open-source platform used for building electronics projects. Ardui
 The Arduino platform has become quite popular with people just starting out with electronics, and for good reason. Unlike most previous programmable circuit boards, the Arduino does not need a separate piece of hardware (called a programmer) in order to load new code onto the board -- you can simply use a USB cable. Additionally, the Arduino IDE uses a simplified version of C++, making it easier to learn to program. Finally, Arduino provides a standard form factor that breaks out the functions of the micro-controller into a more accessible package.
 * Arduino UNO R3 x 1
 ## Robotic ARM Working Methodology : 
+
