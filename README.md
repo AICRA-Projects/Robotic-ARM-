@@ -1,5 +1,5 @@
 # Robotic-ARM
-The Industrial Robotic Arm
+## The Industrial Robotic Arm
 An industrial robot arm is a marvel of engineering in that it reacts similarly to our own arms. The robot arm closely resembles a human arm, with a wrist, forearm, elbow and shoulder. The six-axis robot has six degrees of freedom, allowing it to move six different ways, unlike the human arm, which has seven degrees of freedom.
 Industrial robotic arms move much faster than human arms and, without the proper safety measures, can be dangerous. Robotic arms usually have some form of safety package or sensors available to ensure the safety of human workers.
 An industrial robot arm not only increases the speed of the manufacturing process, but also the accuracy and precision. These robotic arms cut down on worker error and labor costs.The industrial robotic arm, which is usually made of steel or cast iron is built from the base up, ending with the wrist and whatever end effector is needed to perform the arm’s chosen task. A robotic controller rotates motors that are attached to each joint. Some of the larger arms, used to lift heavy payloads, are run by hydraulic and pneumatic means.
@@ -7,7 +7,13 @@ The arm’s job moves the end effector from place to place – picking up, putti
 # Robotic arm configuration 
 The Robotic Arm has a 180° rotation angle and can provides 6 degrees of freedom. This included a parallel jaw gripper with a maximum opening span of 55mm.
 High Torque Standard Servo Motor with Metal Gears. Provides 11kg/cm at 4.8V, 13.5kgcm at 6V and 16kg/cm at 7.2V.
-##Features:
+
+## How to operate:
+### step 1: It has two state pick and place with light indication Red Led and Green Led 
+### step 2: Green LED "ON" place the object and Gripper mouth is Open 
+### step 3: Red Led "ON" means pick and gripper mouth will get close
+
+## Features:
 * Rotation angle of 180 degrees
 * Height: 46cm
 * Clamp Max opening: 55mm
