@@ -82,6 +82,8 @@ Code is defined with different position value or angle value of three servo moto
 * gripper servo_motor 0 < angle < 180
 * RED LED on Gripper is closed 
 * Green LED on Gripper is open 
+## Conclusion:
+Robotic arm has use in various industries from manufacturing Cars to packaging, from using versatile task to being used in for repetitive jobs. Robotics have a special use in manufacturing as it gives a wide range to tool that can be connected with it and hence again versatility in useage.
 ## Refernce:
 * https://components101.com/motors/mg995-servo-motor
 * https://robokits.co.in/robot-kits
