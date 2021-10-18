@@ -12,6 +12,8 @@ High Torque Standard Servo Motor with Metal Gears. Provides 11kg/cm at 4.8V, 13.
 ### step 1: It has two state pick and place with light indication Red Led and Green Led 
 ### step 2: Green LED "ON" place the object and Gripper mouth is Open 
 ### step 3: Red Led "ON" means pick and gripper mouth will get close
+## Circuit Diagram
+![Robotic ARM (1)](https://user-images.githubusercontent.com/42414598/137720141-85d5d5e9-83cd-4863-8c67-ab38e0b8ad97.png)
 
 ## Features:
 * Rotation angle of 180 degrees
