@@ -15,6 +15,10 @@ High Torque Standard Servo Motor with Metal Gears. Provides 11kg/cm at 4.8V, 13.
 ## Circuit Diagram
 ![Robotic ARM (1)](https://user-images.githubusercontent.com/42414598/137720141-85d5d5e9-83cd-4863-8c67-ab38e0b8ad97.png)
 
+## robotic arm gripper
+![metal-gripper-for-robot-arm-sunrobotics-original-imag4gxkzvjkgmjc](https://user-images.githubusercontent.com/42414598/138668684-c8544cc6-ceaf-41b4-b0f9-ef32a2721647.jpeg)
+
+
 ## Features:
 * Rotation angle of 180 degrees
 * Height: 46cm
